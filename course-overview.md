@@ -36,4 +36,40 @@
 
 ## ETL Fundamentals
 
-- 
+- Extract
+  - Read from one or more sources
+  - Configure accesd to data
+  - Read into application
+  - Web scraping
+    - API
+    - Python/R
+    - Static archive - stage within a batch process
+    - Streaming
+      - IoT
+      - Weather / sensor data
+- Transform
+  - Wrangles
+  - Conform to requirements of target system and use case
+  - Clean
+  - Fix errors / missing values
+  - Joining / merging
+  - Feature engineering
+    - KPI
+  - Formatting
+  - Data typing
+- Load
+  - Environment - visualization
+  - Write to some new destination
+  - Database
+  - Data warehouse
+  - Datamarts
+  - Ingestion for analytics application goal
+    - Dashboards
+    - Reports
+  - Advanced analytics
+    - Forcasting
+    - Classification
+  - Analog to digital transformation
+  - OLTP - Online transaction processing - don't save transaction history
+    - OLAP
+  - Features / KPIs for dashboards or training and deploying ML models
